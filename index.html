@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="weather.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Local Weather</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="search-container">
+      <h4>Get Your Local Weather</h4>
+      <input type="text" class="zip-input" placeholder="Enter Your Zip Code" />
+      <button class="zip-search">Search</button>
+      </div>
+      <div id="location-card">
+      <h1 class="location"></h1>
+      <div class="weather-type"></div>
+      <h2 class="temperature"></h2>
+      <h3 class="conditions"></h3>
+      <div class="high-and-low">
+        <h5 class="high-temp"></h4>
+        <h5 class="low-temp"></h4>
+      </div>
+    </div>
+    </div>
+  </body>
+  <script src="weather.js"></script>
+</html>
