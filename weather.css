@@ -31,7 +31,24 @@ html {
 }
 
 .zip-search {
-  margin-top: 3px;
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 12px;
+  padding: 6px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.zip-search:hover {
+  background-color: rgb(143, 138, 138);
+  color: white;
+}
+
+* {
+  outline: none;
 }
 
 .high-and-low {

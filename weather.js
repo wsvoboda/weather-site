@@ -30,6 +30,7 @@ const getAllData = async () => {
     const imageDiv = document.querySelector(".weather-type");
     const weatherTypeImage = formattedData.weather[0].icon;
     imageDiv.innerHTML = `<img src="http://openweathermap.org/img/wn/${weatherTypeImage}@2x.png">`;
+    zipInputField.value = "";
   } else {
     alert("Please enter a valid zip code");
   }
