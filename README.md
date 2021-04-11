@@ -1,5 +1,7 @@
 # Weather Site
 
+You can access this site using this link: https://wsvoboda.github.io/weather-site/
+
 This site was created to allow users to search for their current weather using a zip code.
 
 ![weatherintro](https://user-images.githubusercontent.com/78281930/114288908-fee1f780-9a38-11eb-817a-7906d2529748.png)
