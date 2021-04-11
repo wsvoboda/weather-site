@@ -30,6 +30,14 @@ html {
   opacity: 92%;
 }
 
+.zip-input {
+  border: none;
+  padding: 4px;
+  border-radius: 5px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
+}
+
 .zip-search {
   background-color: #f1f1f1;
   color: black;
@@ -40,6 +48,8 @@ html {
   border-radius: 5px;
   text-align: center;
   margin-top: 5px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
 }
 
 .zip-search:hover {
