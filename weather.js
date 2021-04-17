@@ -40,3 +40,10 @@ searchButtonClicked.addEventListener("click", (e) => {
   e.preventDefault();
   getAllData();
 });
+
+zipInputField.addEventListener("keyup", (e) => {
+  if (e.keyCode === 13) {
+    e.preventDefault();
+    getAllData();
+  }
+});
