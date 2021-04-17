@@ -113,3 +113,9 @@ h4 {
 h5 {
   font-size: 18px;
 }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+}
