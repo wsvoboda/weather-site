@@ -95,10 +95,12 @@ input {
 
 h1 {
   font-size: 38px;
+  margin: 15px 0;
 }
 
 h2 {
   font-size: 33px;
+  margin: 0;
 }
 
 h3 {
